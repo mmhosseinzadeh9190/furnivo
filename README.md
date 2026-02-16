@@ -8,7 +8,7 @@ Built purely with semantic HTML5 and meticulously styled CSS3, this project focu
 
 You can view a live demo of this project here: [Furni Shop](https://mmhosseinzadeh9190.github.io/furni-shop/)
 
-## Screenshots
+## Screenshot
 
 ![Furni Shop](https://github.com/mmhosseinzadeh9190/furni-shop/blob/main/furni-shop.png)
 
