@@ -1,0 +1,23 @@
+{
+  "name": "Furnivo | Modern Furniture",
+  "short_name": "Furnivo",
+  "description": "Explore modern furniture, designer chairs, and unique toys. A minimalist e-commerce showcase built with HTML, CSS & JS.",
+  "icons": [
+    {
+      "src": "/assets/images/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#eff2f1",
+  "theme_color": "#3b5d50",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/",
+  "scope": "/"
+}
