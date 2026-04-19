@@ -893,6 +893,33 @@ footer .separator {
   color: var(--color-gray-dark);
 }
 
+.scrollToTop {
+  position: fixed;
+  bottom: 24px;
+  right: 32px;
+  width: 52px;
+  height: 52px;
+  border-radius: var(--rounded-full);
+  background-color: var(--color-primary-light);
+  border: none;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.scrollToTop:hover {
+  background-color: var(--color-primary);
+}
+
+.scrollToTop.scrollToTop--visible {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
 /* TODO: update media queries */
 /* @media <media-type> and (<media-feature>: <value>) { ... } */
 
@@ -971,7 +998,6 @@ footer .separator {
     flex-direction: column;
     justify-content: center;
     gap: 32px;
-    transition: all 0.3s ease;
     transform: translateX(100%);
     opacity: 0;
     pointer-events: none;

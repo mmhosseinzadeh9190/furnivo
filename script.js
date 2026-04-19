@@ -5,6 +5,7 @@ const navbarEl = document.querySelector(".navbar");
 const links = document.querySelectorAll(".navbar__link");
 const mobileNavbarButton = document.querySelector(".actions__button--mobile-nav");
 const heroSectionEl = document.querySelector(".hero");
+const scrollToTopButton = document.querySelector(".scrollToTop");
 
 const headerHeight = headerEl.offsetHeight;
 
@@ -56,10 +57,12 @@ const obs = new IntersectionObserver(
 
     if (ent.isIntersecting === false) {
       headerEl.classList.add("sticky");
+      scrollToTopButton.classList.add("scrollToTop--visible");
     }
 
     if (ent.isIntersecting === true) {
       headerEl.classList.remove("sticky");
+      scrollToTopButton.classList.remove("scrollToTop--visible");
     }
   },
   {
@@ -69,3 +72,7 @@ const obs = new IntersectionObserver(
   },
 );
 obs.observe(heroSectionEl);
+
+scrollToTopButton.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
