@@ -6,7 +6,7 @@ Built with semantic HTML5, meticulously styled CSS3, and enhanced with JavaScrip
 
 ## Demo
 
-You can view a live demo of this project here: [Furnivo](https://mmhosseinzadeh9190.github.io/furnivo/)
+You can view a live demo of this project here: [Furnivo](https://furnivo-hz.vercel.app/)
 
 ## Screenshot
 
